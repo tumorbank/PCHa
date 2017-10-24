@@ -1,12 +1,30 @@
 <!DOCTYPE HTML>
 <html>
 <head>
- <title>Inline style</title>
+  <title>Style Sheets</title>
+  <style type="text/css">
+  em { background-color:#8000FF; color:white }
+  h1 { font-family:Arial, sans-serif }
+  p { font-size:18pt }
+  .blue { color:blue }
+  </style>
 </head>
  <body>
-  <p>Inline style</p>
-  <!--Separate multiple styles with a semicolon-->
-  <p style="font-size: 25pt">Inline style</p>
-  <p style="font-size: 20pt; color:green" >green color</p>
+  <h1 class="black">Food menu</h1>
+  <p style="font-size: 20pt; color:yellow" >Monday</p>
+  <li>ice cream</li>
+  <li>Bread
+   <ul>
+    <li>White bread</li>
+    <li>Rye bread</li>
+    <li>Whole wheat bread</li>
+   </ul>
+  </li>
+  <li>Rice</li>
+  <li>Potatoes</li>
+  <li>Pizza <em>with mushrooms</em></li>
+  </ul>
+  <a href="http://food.com" title="grocery
+   store">Go to the Grocery store</a>
 </body>
 </html>
